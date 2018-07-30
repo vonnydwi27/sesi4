@@ -15,6 +15,12 @@ public class main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+
+	Calculator calculator = new calculator;
+	int[] nums = {2,5,6,4,1}
+	System.out.println(Calculator.max(nums));	
+	System.out.println(Calculator.min(nums));
+	System.out.println(Calculator.avn(nums));
     }
     
 }
