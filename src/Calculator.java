@@ -9,5 +9,36 @@
  * @author Alex
  */
 public class Calculator {
+	
+public int max(int[] nums)
+{
+	int max = nums[0];
+	for (int i : nums)
+	{
+	if (i>max)
+	{
+	max = i;
+	}
+	}
+}
+
+public int min(int[] nums)
+{
+	int min= nums[0];
+	for (int i : nums)
+	{
+	if (i>min)
+	{
+	min = i;
+	}
+	}
+}
+
+public int avn(int[] nums)
+{
+	int rata = nums[0];
+	rata = rata+i
+
+} 
     
 }
