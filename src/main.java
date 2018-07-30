@@ -14,7 +14,8 @@ public class main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Calculator Calc = new Calculator();
+        System.out.print(Calc.penjumlahan(2,7));
     }
     
 }
